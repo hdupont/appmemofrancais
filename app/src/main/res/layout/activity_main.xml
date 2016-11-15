@@ -29,12 +29,18 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_on_en_un" />
+            android:text="@string/button_on_en_un"
+            android:onClick="displayIpaForPairsOfLettersActivity" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_one_to_ten" />
 
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_20_to_60"
+            android:onClick="display20To60Activity" />
     </LinearLayout>
 </ScrollView>

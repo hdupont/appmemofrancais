@@ -23,7 +23,9 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".DisplayAlphabetActivity"></activity>
+        <activity android:name=".DisplayAlphabetActivity" />
+        <activity android:name=".DisplayIpaForPairsOfLettersActivity" />
+        <activity android:name=".Display20To60Activity"></activity>
     </application>
 
 </manifest>

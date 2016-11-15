@@ -7,44 +7,42 @@ import android.widget.ListView;
 
 public class DisplayAlphabetActivity extends AppCompatActivity {
 
+    String[] ipa_alphabet = new String[]{
+            "a [a]"
+            , "b [be]"
+            , "c [se]"
+            , "d [de]"
+            , "e [ə]"
+            , "f [ɛf]"
+            , "g [ʒe]"
+            , "h [aʃ]"
+            , "i [i]"
+            , "j [ʒi]"
+            , "k [ka]"
+            , "l [ɛl]"
+            , "m [ɛm]"
+            , "n [ɛn]"
+            , "o [o]"
+            , "p [pe]"
+            , "q [ky]"
+            , "r [ɛr]"
+            , "s [ɛs]"
+            , "t [te]"
+            , "u [y]"
+            , "v [ve]"
+            , "w [dubləve]"
+            , "x [iks]"
+            , "y [igrɛk]"
+            , "z [zɛd]"
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_alphabet);
 
-        String[] ipa_alphabet = new String[]{
-                "a"
-                , "b"
-                , "c"
-                , "d"
-                , "e"
-                , "f"
-                , "g"
-                , "h"
-                , "i"
-                , "j"
-                , "k"
-                , "l"
-                , "m"
-                , "n"
-                , "o"
-                , "p"
-                , "q"
-                , "r"
-                , "s"
-                , "t"
-                , "u"
-                , "v"
-                , "w"
-                , "x"
-                , "y"
-                , "z"
-        };
-
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, ipa_alphabet);
         ListView listView = (ListView) findViewById(R.id.alphabet_list_view);
         listView.setAdapter(adapter);
     }
-
-
 }

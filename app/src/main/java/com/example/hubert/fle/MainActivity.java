@@ -18,4 +18,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayAlphabetActivity.class);
         startActivity(intent);
     }
+
+    public void displayIpaForPairsOfLettersActivity(View view) {
+        Intent intent = new Intent(this, DisplayIpaForPairsOfLettersActivity.class);
+        startActivity(intent);
+    }
+
+    public void display20To60Activity(View view) {
+        Intent intent = new Intent(this, Display20To60Activity.class);
+        startActivity(intent);
+    }
 }
