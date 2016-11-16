@@ -27,7 +27,7 @@
         <activity android:name=".DisplayIpaForPairsOfLettersActivity" />
         <activity android:name=".Display20To50Activity" />
         <activity android:name=".Display0To10Activity" />
-        <activity android:name=".Display11to16Activity"></activity>
+        <activity android:name=".Display11To16Activity"></activity>
     </application>
 
 </manifest>

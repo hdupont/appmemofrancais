@@ -41,6 +41,12 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:text="@string/button_11_to_16"
+            android:onClick="display11To16Activity" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:text="@string/button_20_to_50"
             android:onClick="display20To50Activity" />
     </LinearLayout>

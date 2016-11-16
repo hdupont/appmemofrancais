@@ -8,6 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.hubert.fle.Display11to16Activity">
+    tools:context="com.example.hubert.fle.Display11To16Activity">
 
 </RelativeLayout>

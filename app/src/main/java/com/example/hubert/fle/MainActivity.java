@@ -29,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void display11To16Activity(View view) {
+        Intent intent = new Intent(this, Display11To16Activity.class);
+        startActivity(intent);
+    }
+
     public void display20To50Activity(View view) {
         Intent intent = new Intent(this, Display20To50Activity.class);
         startActivity(intent);
