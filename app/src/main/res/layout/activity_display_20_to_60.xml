@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_display_20_to_60"
     android:layout_width="match_parent"
@@ -8,6 +8,129 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.hubert.fle.Display20To60Activity">
+    tools:context="com.example.hubert.fle.Display20To50Activity" >
 
-</RelativeLayout>
+    <TableRow>
+        <TextView
+            android:text="20"
+            android:padding="3dip" />
+        <TextView
+            android:text="vingt"
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="et 1"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="30"
+            android:padding="3dip" />
+        <TextView
+            android:text="trente"
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="2"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="40"
+            android:padding="3dip" />
+        <TextView
+            android:text="quarante"
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="3"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="50"
+            android:padding="3dip" />
+        <TextView
+            android:text="cinquante"
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="4"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="5"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="6"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="7"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="8"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="9"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:padding="3dip" />
+        <TextView
+            android:background="#58ce6e"
+            android:text="10"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout >

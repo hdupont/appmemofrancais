@@ -35,12 +35,13 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_one_to_ten" />
+            android:text="@string/button_0_to_10"
+            android:onClick="display0To10Activity" />
 
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_20_to_60"
-            android:onClick="display20To60Activity" />
+            android:text="@string/button_20_to_50"
+            android:onClick="display20To50Activity" />
     </LinearLayout>
 </ScrollView>

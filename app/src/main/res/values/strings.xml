@@ -3,8 +3,8 @@
     <string name="smilling_hello">你好 :)</string>
     <string name="button_a_b_c">a, b, c, ..., z</string>
     <string name="button_on_en_un">on, en, un, ...</string>
-    <string name="button_one_to_ten">1, 2, ..., 10</string>
+    <string name="button_0_to_10">0, 1, ..., 10</string>
     <string name="button_eleven_to_sixteen">11, 12, ..., 16</string>
     <string name="button_seventeen_to_nineteen">17, ..., 19</string>
-    <string name="button_20_to_60">20, 30, ..., 60</string>
+    <string name="button_20_to_50">20, 30, ..., 50</string>
 </resources>
